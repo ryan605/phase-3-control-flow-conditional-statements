@@ -42,7 +42,8 @@ elsif operation == "*"
   return num1 * num2
 elsif operation == "/"
   return num1 / num2
-else return "Invalid operation!"
+else 
+  puts "Invalid operation!"
 end
 end
 
